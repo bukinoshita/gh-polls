@@ -1,24 +1,13 @@
 {
   "name": "gh-polls",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create a poll with gh-polls",
   "main": "index.js",
   "repository": "https://github.com/bukinoshita/gh-polls.git",
   "author": "Bu Kinoshita <bukinoshita@gmail.com>",
   "license": "MIT",
-  "keywords": [
-    "poll",
-    "polls",
-    "gh",
-    "gh-polls",
-    "gh-poll",
-    "apex",
-    "up"
-  ],
-  "files": [
-    "index.js",
-    "lib"
-  ],
+  "keywords": ["poll", "polls", "gh", "gh-polls", "gh-poll", "apex", "up"],
+  "files": ["index.js", "lib"],
   "scripts": {
     "test": "xo & ava"
   },
@@ -31,8 +20,6 @@
     "xo": "^0.18.2"
   },
   "xo": {
-    "extends": [
-      "prettier"
-    ]
+    "extends": ["prettier"]
   }
 }
