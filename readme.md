@@ -45,6 +45,15 @@ Required
 Array of options (string).
 
 
+## Related
+
+
+- [apex/gh-polls](https://github.com/apex/gh-polls) – polls for user feedback in GitHub issues
+- [apex/up](https://github.com/apex/up) – the serverless webapp tool powering gh-polls
+- [Web App](https://app.gh-polls.com/) – GH polls web app
+- [GitHub App](https://github.com/apps/polls) – GH polls bot
+
+
 ## License
 
 MIT © [Bu Kinoshita](https://bukinoshita.io)
