@@ -15,7 +15,7 @@ $ yarn add gh-polls
 ```js
 const ghPolls = require('gh-polls')
 
-const options = ["Toki", "Loki", "Jane"]
+const options = ["Tobi", "Loki", "Jane"]
 await ghPolls(options)
 ```
 
