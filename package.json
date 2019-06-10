@@ -23,7 +23,7 @@
     "test": "xo & ava"
   },
   "dependencies": {
-    "axios": "^0.17.0"
+    "axios": "^0.18.1"
   },
   "devDependencies": {
     "ava": "^0.22.0",
