@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "ava": "0.25.0",
-    "eslint-config-prettier": "6.5.0",
+    "eslint-config-prettier": "6.7.0",
     "xo": "0.18.2"
   },
   "xo": {
