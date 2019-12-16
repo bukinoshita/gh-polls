@@ -3,7 +3,7 @@
   "version": "1.0.2",
   "description": "Create a poll with gh-polls",
   "main": "index.js",
-  "repository": "https://github.com/bukinoshita/gh-polls.git",
+  "repository": "bukinoshita/gh-polls",
   "author": "Bu Kinoshita <bukinoshita@gmail.com>",
   "license": "MIT",
   "keywords": [

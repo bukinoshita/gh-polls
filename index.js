@@ -1,5 +1,3 @@
-'use strict'
-
 const { createPoll } = require('./lib/api')
 const generate = require('./lib/generate')
 
