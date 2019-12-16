@@ -1,5 +1,3 @@
-'use strict'
-
 import test from 'ava'
 import m from '.'
 
@@ -14,7 +12,7 @@ test('create poll', async t => {
 })
 
 test('error', async t => {
-  const error = await t.throws(m())
+  const error = await t.throwsAsync(m())
 
   t.is(error.message, '`Options` must be an `Array`.')
 })
