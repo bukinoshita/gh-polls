@@ -2,7 +2,8 @@
   "name": "gh-polls",
   "version": "1.0.3",
   "description": "Create a poll with gh-polls",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": "bukinoshita/gh-polls",
   "author": "Bu Kinoshita <bukinoshita@gmail.com>",
   "license": "MIT",
@@ -15,24 +16,26 @@
     "apex",
     "up"
   ],
+  "engines": {
+    "node": ">=10"
+  },
   "files": [
-    "index.js",
-    "lib"
+    "dist"
   ],
   "scripts": {
-    "test": "xo & ava"
+    "build": "tsc",
+    "prepublish": "yarn build",
+    "test": "jest --config=jest.config.json"
   },
   "dependencies": {
-    "axios": "^0.19.0"
+    "axios": "0.19.2"
   },
   "devDependencies": {
-    "ava": "2.4.0",
-    "eslint-config-prettier": "6.7.0",
-    "xo": "0.25.3"
-  },
-  "xo": {
-    "extends": [
-      "prettier"
-    ]
+    "@sindresorhus/tsconfig": "0.7.0",
+    "@types/jest": "26.0.0",
+    "@types/node": "14.0.13",
+    "jest": "26.0.1",
+    "ts-jest": "26.1.0",
+    "typescript": "3.9.5"
   }
 }
